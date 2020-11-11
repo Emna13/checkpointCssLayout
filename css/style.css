@@ -1,0 +1,273 @@
+.grid
+{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: auto;
+   margin: 0%;
+   padding: 1% 15% 0% 13.5%;
+   position: fixed;
+   background-color: white;
+   top: 0;
+   
+}
+.logo
+{
+   grid-column-start: 1;
+   grid-column-end: 1;
+
+}
+.logo1
+{
+   width: 112%;
+}
+.barre
+{
+   grid-column-start: 4;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.barre1
+{
+  color: #069e9e ;
+}
+.barre2, .barre3
+{
+   color: #b1adad;  
+}
+
+.mini_logo
+{
+  text-align: center;
+  padding-top: 5%;
+}
+h1
+{
+   color: #5ec4a2;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text
+{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around ;
+ font-size: large;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ color: grey;
+ margin: 0%;
+ padding: 5% 15% 0% 13.5%;
+ 
+}
+
+ .text1
+ {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 5%;
+    padding-top: 5%;
+    margin: 0%;
+    padding: 1% 15% 0% 13.5%;
+   
+ }
+
+ .patients
+ {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    background-color: rgb(0, 204, 177);
+    padding-left: 10%;
+    border-radius: 15px;
+ }
+ h6,h2
+ {
+    color: white;
+ }
+ .logo2
+ {
+    width: 80%;
+    float: right ;
+    
+
+ }
+ .drop
+{
+   background-color: white;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+   border-radius: 5%;
+ }
+ .dropdown {
+   position: relative;
+   display: inline-block;
+ }
+
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ .dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+ }
+ .dropdown:hover .dropdown-content {
+   display: block;
+ }
+ .doctors
+ {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    background-color:rgb(61, 131, 223);
+    padding-left: 10%;
+    border-radius: 15px;   
+ }
+ .grid1
+ {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    margin: 0%;
+    padding: 1% 15% 0% 13.5%;
+ }
+ .logos
+{
+   grid-column-start: 2;
+   grid-column-end: 2;
+   display: flex;
+   justify-content: space-around;
+   font-size: 150%;
+   align-items: center;
+   
+}
+a
+{
+   text-decoration: none;
+   color: rgb(144, 162, 180);
+} 
+
+a:hover
+{
+   text-decoration: none;
+   color: #66CDAA;
+}
+
+h3
+{
+   color: #5ec4a2;
+   font-size: 180%;
+   grid-column-start: 1;
+   grid-column-end: 1;
+}
+
+.grid2
+{
+   display: grid;
+   grid-template-columns: 2fr 1fr 1fr;
+   grid-template-rows: 1fr;
+   background-color: rgb(216, 246, 254);
+   justify-content: space-around;
+}
+.colonne1
+{  
+   padding: 1% 15% 0% 25%;
+   color: gray;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.colonne2
+{
+   display: flex;
+   flex-direction: column;
+   align-content: space-between;
+   justify-content: space-around;  
+   padding-left: 5%;
+   
+   
+}
+.colonne3
+{
+   display: flex;
+   flex-direction: column;
+   align-content: space-between;
+   justify-content: space-around;  
+   margin-right: 30%;
+  }
+.partie1
+{
+   align-content: center;
+   background-color: white;
+   align-content: space-between;
+   padding: 20% 5% 10% 5%;
+   text-align: center;
+   margin: 10%;
+   color: gray;
+}
+.partie2
+{
+   align-content: center;
+   background-color: white;
+   align-content: space-between;
+   padding: 20% 5% 10% 5%;
+   text-align: center;
+   margin: 5%;
+   color: gray;
+}
+.milieu
+{
+   text-align: center;
+   padding-top: 5%;
+   color: gray;
+}
+.gallery 
+{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   margin-top: 5%;
+   padding: 1% 15% 0% 13.5%;
+      
+ }
+ div.gallery img {
+   width: auto;
+   height: auto;
+ }
+ div.desc {
+    display: flex;
+   padding: 15px;
+   text-align: center;
+   justify-content: space-between;
+   color: rgb(107, 107, 107);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ button
+ {
+    background-color:rgb(61, 131, 223);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2%;
+    border: none;
+    border-radius: 5%;
+ }
+ footer
+ {
+    text-align: center;
+    color: rgb(179, 178, 178);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    margin-top: 5%;
+   padding: 1% 15% 0% 13.5%;
+   }
